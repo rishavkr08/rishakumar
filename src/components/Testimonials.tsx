@@ -25,7 +25,7 @@ export default function Testimonials() {
                 background: 'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))',
               }}
             >
-              <div className="text-[28px]" style={{ color: 'var(--accent)', opacity: 0.5 }}>"</div>
+              <div className="text-[28px]" style={{ color: 'var(--accent)', opacity: 0.5 }}>&ldquo;</div>
               <blockquote className="text-[15px] leading-[1.75] flex-1" style={{ color: 'var(--muted)' }}>
                 {quote.text}
               </blockquote>
