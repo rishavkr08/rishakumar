@@ -61,7 +61,7 @@ export default function Hero() {
 
           <ScrollReveal delay={160}>
             <div className="mt-6 text-[clamp(18px,2.6vw,26px)] font-medium">
-              I build{' '}
+              I am{' '}
               <span ref={typedRef} style={{ color: 'var(--accent)' }} />
               <span
                 className="inline-block w-[9px] ml-[3px] align-[-2px]"
