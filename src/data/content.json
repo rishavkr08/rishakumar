@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Rishav Kumar — Full Stack Developer",
+    "description": "Full-stack developer who turns messy problems into clean, fast products — from database schemas to design systems. Code Blooded, end to end.",
+    "url": "https://rishavkumar.dev",
+    "ogImage": "/og.png",
+    "twitterHandle": "@rishavkr08"
+  },
+  "nav": {
+    "links": [
+      { "label": "about",  "href": "#about",      "num": "01" },
+      { "label": "stack",  "href": "#stack",       "num": "02" },
+      { "label": "work",   "href": "#work",        "num": "03" },
+      { "label": "path",   "href": "#experience",  "num": "04" }
+    ],
+    "cta": { "label": "contact", "href": "#contact" }
+  },
+  "hero": {
+    "greeting": "$ echo \"hello, world\"",
+    "name": "Rishav\nKumar",
+    "typingPhrases": [
+      "fast APIs.",
+      "clean UIs.",
+      "dev tools.",
+      "for the web."
+    ],
+    "bio": "Full-stack developer who turns messy problems into clean, fast products — from database schemas to design systems.",
+    "bioHighlight": "Code Blooded",
+    "cta": { "primary": "View my work →", "primaryHref": "#work", "secondary": "Let's talk", "secondaryHref": "#contact" },
+    "socialLinks": [
+      { "label": "GitHub",   "href": "https://github.com/rishavkr08" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/rishavkr08" },
+      { "label": "X",        "href": "https://x.com/rishavkr08" },
+      { "label": "Email",    "href": "mailto:hello@rishavkumar.dev" }
+    ],
+    "card": {
+      "filename": "rishav — developer.ts",
+      "fields": [
+        { "key": "role",        "value": "'Full Stack Developer'", "type": "string" },
+        { "key": "location",    "value": "'India · Remote'",       "type": "string" },
+        { "key": "stack",       "value": "['TS', 'Go', 'React', 'Node']", "type": "array" },
+        { "key": "coffee",      "value": "Infinity",               "type": "keyword" },
+        { "key": "codeBlooded", "value": "true",                   "type": "keyword" }
+      ]
+    }
+  },
+  "about": {
+    "sectionLabel": "// 01 · about",
+    "heading": "Engineer at heart,\nbuilder by craft.",
+    "paragraphs": [
+      "I'm a full-stack developer with a soft spot for the whole pipeline — designing schemas, shaping APIs, and sweating the last few pixels of an interface. I care less about which layer a problem lives in and more about shipping something that feels effortless to use.",
+      "Over the last few years I've built real-time collaboration tools, edge-deployed services, and developer platforms used by teams in production. I write code that's a joy to maintain, document the why, and stay calm when the pager goes off."
+    ],
+    "stats": [
+      { "key": "location",    "value": "India · Remote" },
+      { "key": "experience",  "value": "5+ years" },
+      { "key": "focus",       "value": "Web · APIs · DX" },
+      { "key": "open source", "value": "contributor" },
+      { "key": "status",      "value": "✦ available" }
+    ]
+  },
+  "stack": {
+    "sectionLabel": "// 02 · stack",
+    "heading": "Tools I reach for.",
+    "categories": [
+      { "label": "~/ languages",  "items": ["TypeScript", "Go", "Python", "Rust", "SQL"] },
+      { "label": "~/ frontend",   "items": ["React", "Next.js", "Vue", "Tailwind", "Framer Motion"] },
+      { "label": "~/ backend",    "items": ["Node.js", "Express", "FastAPI", "gRPC", "GraphQL"] },
+      { "label": "~/ data",       "items": ["PostgreSQL", "MongoDB", "Redis", "Prisma"] },
+      { "label": "~/ cloud & ops","items": ["Docker", "Kubernetes", "AWS", "Cloudflare", "Terraform"] },
+      { "label": "~/ practice",   "items": ["CI/CD", "Testing", "Observability", "System Design"] }
+    ]
+  },
+  "work": {
+    "sectionLabel": "// 03 · selected work",
+    "heading": "Things I've shipped.",
+    "projects": [
+      {
+        "num": "01",
+        "title": "DevSync",
+        "description": "Real-time collaborative coding workspace with live cursors, shared terminals, and conflict-free editing built on CRDTs.",
+        "tags": ["TypeScript", "WebSocket", "Redis", "React"],
+        "href": "#"
+      },
+      {
+        "num": "02",
+        "title": "Atlas Gateway",
+        "description": "Self-hosted API gateway with rate limiting, auth, and observability baked in — five-nines reliability at scale.",
+        "tags": ["Go", "gRPC", "Docker", "K8s"],
+        "href": "#"
+      },
+      {
+        "num": "03",
+        "title": "CloudPantry",
+        "description": "Inventory & recipe platform that tracks pantry stock and auto-generates smart shopping lists for households.",
+        "tags": ["Next.js", "Postgres", "tRPC", "Prisma"],
+        "href": "#"
+      },
+      {
+        "num": "04",
+        "title": "Ledgerly",
+        "description": "Double-entry personal finance engine with bank sync, forecasting, and a keyboard-first interface.",
+        "tags": ["Rust", "Axum", "SQLite", "React"],
+        "href": "#"
+      },
+      {
+        "num": "05",
+        "title": "PixelForge",
+        "description": "AI-assisted image pipeline that batch-optimises and transforms assets at the edge in milliseconds.",
+        "tags": ["Python", "FastAPI", "Workers"],
+        "href": "#"
+      },
+      {
+        "num": "06",
+        "title": "Pulse",
+        "description": "Lightweight uptime & status-page monitor with incident timelines and on-call routing for small teams.",
+        "tags": ["Node.js", "MongoDB", "Vue"],
+        "href": "#"
+      }
+    ]
+  },
+  "experience": {
+    "sectionLabel": "// 04 · the path",
+    "heading": "Where I've been.",
+    "items": [
+      {
+        "period": "2024 – Present",
+        "role": "Senior Full Stack Engineer",
+        "company": "Nimbus Labs",
+        "description": "Lead the platform team building real-time collaboration infrastructure. Cut p99 latency by 60% and mentored four engineers."
+      },
+      {
+        "period": "2022 – 2024",
+        "role": "Full Stack Developer",
+        "company": "Tangent Systems",
+        "description": "Shipped customer-facing features end to end across a Next.js + Go stack, and owned the design system used company-wide."
+      },
+      {
+        "period": "2021 – 2022",
+        "role": "Backend Engineer",
+        "company": "ByteHarbor",
+        "description": "Designed APIs and data pipelines for a logistics startup, scaling from prototype to thousands of daily orders."
+      },
+      {
+        "period": "2020",
+        "role": "B.Tech, Computer Science",
+        "company": "",
+        "description": "Started contributing to open source and never really stopped — where the code-blooded thing began."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "// 05 · kind words",
+    "heading": "What teammates say.",
+    "quotes": [
+      {
+        "text": "Rishav ships features that just work. He thinks in systems and writes code that's a genuine joy to maintain.",
+        "author": "Priya N.",
+        "role": "Engineering Manager"
+      },
+      {
+        "text": "One of the rare engineers equally sharp on the database and the pixel. Rare, and invaluable to a team.",
+        "author": "Marcus D.",
+        "role": "Product Lead"
+      },
+      {
+        "text": "Took our flaky API to five-nines reliability in a single quarter. Calm under fire, relentless on quality.",
+        "author": "Aisha R.",
+        "role": "CTO"
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "// 06 · contact",
+    "heading": "Let's build\nsomething good.",
+    "body": "Open to full-time roles, freelance projects, and the occasional ambitious side quest. My inbox is always open.",
+    "email": "hello@rishavkumar.dev",
+    "socialLinks": [
+      { "label": "GitHub →",     "href": "https://github.com/rishavkr08" },
+      { "label": "LinkedIn →",   "href": "https://linkedin.com/in/rishavkr08" },
+      { "label": "X / Twitter →","href": "https://x.com/rishavkr08" }
+    ]
+  },
+  "footer": {
+    "copy": "© 2026 Rishav Kumar · Code Blooded.",
+    "backToTop": "back to top ↑"
+  }
+}
