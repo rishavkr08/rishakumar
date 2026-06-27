@@ -8,10 +8,10 @@
   },
   "nav": {
     "links": [
-      { "label": "about",  "href": "#about",      "num": "01" },
-      { "label": "stack",  "href": "#stack",       "num": "02" },
-      { "label": "work",   "href": "#work",        "num": "03" },
-      { "label": "path",   "href": "#experience",  "num": "04" }
+      { "label": "about", "href": "#about", "num": "01" },
+      { "label": "stack", "href": "#stack", "num": "02" },
+      { "label": "work", "href": "#work", "num": "03" },
+      { "label": "path", "href": "#experience", "num": "04" }
     ],
     "cta": { "label": "contact", "href": "#contact" }
   },
@@ -27,21 +27,30 @@
     ],
     "bio": "Full-stack developer who turns messy problems into clean, fast products — from database schemas to design systems.",
     "bioHighlight": "Code Blooded",
-    "cta": { "primary": "View my work →", "primaryHref": "#work", "secondary": "Let's talk", "secondaryHref": "#contact" },
+    "cta": {
+      "primary": "View my work →",
+      "primaryHref": "#work",
+      "secondary": "Let's talk",
+      "secondaryHref": "#contact"
+    },
     "socialLinks": [
-      { "label": "GitHub",   "href": "https://github.com/rishavkr08" },
+      { "label": "GitHub", "href": "https://github.com/rishavkr08" },
       { "label": "LinkedIn", "href": "https://linkedin.com/in/rishavkr08" },
-      { "label": "X",        "href": "https://x.com/rishavkr08" },
-      { "label": "Email",    "href": "mailto:rishav74492644@gmail.com" }
+      { "label": "X", "href": "https://x.com/rishavkr08" },
+      { "label": "Email", "href": "mailto:rishav74492644@gmail.com" }
     ],
     "card": {
       "filename": "rishav — developer.ts",
       "fields": [
-        { "key": "role",        "value": "'Full Stack Developer'", "type": "string" },
-        { "key": "location",    "value": "'India · Remote'",       "type": "string" },
-        { "key": "stack",       "value": "['Ruby on Rails', 'React.js', 'Next.js', 'JS/TS', 'Postgresql']", "type": "array" },
-        { "key": "coffee",      "value": "Infinity",               "type": "keyword" },
-        { "key": "codeBlooded", "value": "true",                   "type": "keyword" }
+        { "key": "role", "value": "'Full Stack Developer'", "type": "string" },
+        { "key": "location", "value": "'India · Remote'", "type": "string" },
+        {
+          "key": "stack",
+          "value": "['Ruby on Rails', 'React.js', 'Next.js', 'JS/TS', 'Postgresql']",
+          "type": "array"
+        },
+        { "key": "coffee", "value": "Infinity", "type": "keyword" },
+        { "key": "codeBlooded", "value": "true", "type": "keyword" }
       ]
     }
   },
@@ -53,23 +62,38 @@
       "Over the last few years I've built real-time collaboration tools, edge-deployed services, and developer platforms used by teams in production. I write code that's a joy to maintain, document the why, and stay calm when the pager goes off."
     ],
     "stats": [
-      { "key": "location",    "value": "India · Remote" },
-      { "key": "experience",  "value": "5+ years" },
-      { "key": "focus",       "value": "Web · APIs · DX" },
+      { "key": "location", "value": "India · Remote" },
+      { "key": "experience", "value": "5+ years" },
+      { "key": "focus", "value": "Web · APIs · DX" },
       { "key": "open source", "value": "contributor" },
-      { "key": "status",      "value": "✦ available" }
+      { "key": "status", "value": "✦ available" }
     ]
   },
   "stack": {
     "sectionLabel": "// 02 · stack",
     "heading": "Tools I reach for.",
     "categories": [
-      { "label": "~/ languages",  "items": ["TypeScript", "Ruby", "SQL"] },
-      { "label": "~/ frontend",   "items": ["React", "Next.js", "Vue", "Tailwind", "Framer Motion"] },
-      { "label": "~/ backend",    "items": ["Node.js", "Express", "FastAPI", "gRPC", "GraphQL"] },
-      { "label": "~/ data",       "items": ["PostgreSQL", "MongoDB", "Redis", "Prisma"] },
-      { "label": "~/ cloud & ops","items": ["Docker", "Kubernetes", "AWS", "Cloudflare", "Terraform"] },
-      { "label": "~/ practice",   "items": ["CI/CD", "Testing", "Observability", "System Design"] }
+      { "label": "~/ languages", "items": ["TypeScript", "Ruby", "SQL"] },
+      {
+        "label": "~/ frontend",
+        "items": ["React", "Next.js", "Vue", "Tailwind", "Framer Motion"]
+      },
+      {
+        "label": "~/ backend",
+        "items": ["Node.js", "Express", "FastAPI", "gRPC", "GraphQL"]
+      },
+      {
+        "label": "~/ data",
+        "items": ["PostgreSQL", "MongoDB", "Redis", "Prisma"]
+      },
+      {
+        "label": "~/ cloud & ops",
+        "items": ["Docker", "Kubernetes", "AWS", "Cloudflare", "Terraform"]
+      },
+      {
+        "label": "~/ practice",
+        "items": ["CI/CD", "Testing", "Observability", "System Design"]
+      }
     ]
   },
   "work": {
@@ -125,28 +149,32 @@
     "heading": "Where I've been.",
     "items": [
       {
-        "period": "2024 – Present",
-        "role": "Senior Full Stack Engineer",
-        "company": "Nimbus Labs",
-        "description": "Lead the platform team building real-time collaboration infrastructure. Cut p99 latency by 60% and mentored four engineers."
+        "role": "Senior Software Engineer",
+        "company": "Thrillophilia",
+        "period": "2025 - Present",
+        "description": "Building scalable CMS and backend platforms that enhance SEO, API performance, and digital travel experiences.",
+        "technologies": ["Ruby on Rails", "React.js", "Next.js", "PostgreSQL", "Elasticsearch", "Redis"]
       },
       {
-        "period": "2022 – 2024",
-        "role": "Full Stack Developer",
-        "company": "Tangent Systems",
-        "description": "Shipped customer-facing features end to end across a Next.js + Go stack, and owned the design system used company-wide."
+        "role": "Senior Software Engineer/Tech Lead",
+        "company": "BigBinary LLC / Apple Inc",
+        "period": "2021 - 2025",
+        "description": "Led development of scalable microservices architecture, improving system performance by 40%.",
+        "technologies": ["React.js", "Stimulus.js", "React Query", "Ruby on Rails", "PostgreSQL", "Elasticsearch", "Redis"]
       },
       {
-        "period": "2021 – 2022",
-        "role": "Backend Engineer",
-        "company": "ByteHarbor",
-        "description": "Designed APIs and data pipelines for a logistics startup, scaling from prototype to thousands of daily orders."
+        "role": "Software Engineer",
+        "company": "Mindfire Solutions",
+        "period": "2019 - 2021",
+        "description": "Developed and maintained full-stack applications serving 100k+ users.",
+        "technologies": ["React.js", "Typescript", "Redux", "Ruby on Rails", "MySQL", "Redis"]
       },
       {
-        "period": "2020",
-        "role": "B.Tech, Computer Science",
-        "company": "",
-        "description": "Started contributing to open source and never really stopped — where the code-blooded thing began."
+        "role": "Intern - Mobile App Developer",
+        "company": "BringMyFood Technology",
+        "period": "2018",
+        "description": "Built and optimized a scalable food delivery platform, enhancing order management and logistics.",
+        "technologies": ["React Native", "PHP", "MySQL"]
       }
     ]
   },
@@ -155,19 +183,44 @@
     "heading": "What teammates say.",
     "quotes": [
       {
+        "author": "Vineet Sahu",
+        "text": "I had the pleasure of working with Rishav Kumar at Mindifre Solutions, and he is an exceptional professional. Rishav consistently demonstrated strong technical skills, a keen problem-solving mindset, and an eagerness to take on new challenges. His ability to deliver high-quality work while meeting deadlines was always impressive. Rishav is a proactive team member who always collaborates effectively and brings innovative solutions to the table. His positive attitude and strong work ethic make him a pleasure to work with, and he adds great value to any team.",
+        "role": "Staff Engineer"
+      },
+      {
+        "author": "Sameer Kumar",
+        "text": "We used to work back at Mindfire Solutions, I was mostly consumed with non technical stuff and lil bit of backend but rishav had my back for any of the UI reqs that crossed my deliverables. He invested his RoR skills heavily in some product USPs which later served as backbone of whole system. Although he was a fresher that time, he came par with many techs as IOT, RoR, React, Databases, etc. Totally hard working fella, 💯 points on that, twist him, stress him, he won't break and get work done on time. 🎖 ",
+        "role": "Senior Consultant"
+      },
+      {
+        "author": "Abhisek Kumar Singh",
+        "text": "Rishav is an amazing person, who brings all of the skills and expertise in programming. Working with him is a rare opportunity to come across, a self-driven environmentalist with teamwork spirit. I hereby highly recommend him for efficient programming skills. I’m hoping he’ll deliver ever more to other workplaces as well.",
+        "role": "Cyber Security Expert"
+      },
+      {
+        "author": "Adarsh Mohanty",
+        "text": "Rishav is one of the best among all people I have ever met and is a loyal colleague, understands complex matters. Rishav is a versatile, strong, and goal-oriented team player.",
+        "role": "Senior Software Engineer"
+      },
+      {
+        "author": "Nirmal Hota",
+        "text": "Rishav has started his career from my team. I have seen him turning from a novice to a rock star. He picks up things quickly. I love his dedication.",
+        "role": "Engineering Manager"
+      },
+      {
+        "author": "JP Mohapatra",
+        "text": "The dedication of this man is on another level. His multitasking skill makes him a good team player. It was a great experience working with him. Wish him a great learning experience ahead.",
+        "role": "Ruby on Rails Developer"
+      },
+      {
         "text": "Rishav ships features that just work. He thinks in systems and writes code that's a genuine joy to maintain.",
-        "author": "Priya N.",
+        "author": "Fatima Khan",
         "role": "Engineering Manager"
       },
       {
         "text": "One of the rare engineers equally sharp on the database and the pixel. Rare, and invaluable to a team.",
-        "author": "Marcus D.",
-        "role": "Product Lead"
-      },
-      {
-        "text": "Took our flaky API to five-nines reliability in a single quarter. Calm under fire, relentless on quality.",
-        "author": "Aisha R.",
-        "role": "CTO"
+        "author": "Michael Castilla",
+        "role": "UI Architect"
       }
     ]
   },
@@ -175,11 +228,10 @@
     "sectionLabel": "// 06 · contact",
     "heading": "Let's build\nsomething good.",
     "body": "Open to full-time roles, freelance projects, and the occasional ambitious side quest. My inbox is always open.",
-    "email": "hello@rishavkumar.dev",
+    "email": "rishav74492644@gmail.com",
     "socialLinks": [
-      { "label": "GitHub →",     "href": "https://github.com/rishavkr08" },
-      { "label": "LinkedIn →",   "href": "https://linkedin.com/in/rishavkr08" },
-      { "label": "X / Twitter →","href": "https://x.com/rishavkr08" }
+      { "label": "GitHub →", "href": "https://github.com/rishavkr08" },
+      { "label": "LinkedIn →", "href": "https://linkedin.com/in/rishavkr08" }
     ]
   },
   "footer": {
