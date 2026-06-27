@@ -1,3 +1,4 @@
+import CustomCursor from '@/components/CustomCursor'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
@@ -13,6 +14,7 @@ import ScrollProgress from '@/components/ScrollProgress'
 export default function Home() {
   return (
     <>
+      <CustomCursor />
       <ScrollProgress />
       <ParticleCanvas />
       <Nav />
