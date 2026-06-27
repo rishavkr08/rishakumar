@@ -19,10 +19,11 @@
     "greeting": "$ echo \"hello, world\"",
     "name": "Rishav\nKumar",
     "typingPhrases": [
-      "fast APIs.",
-      "clean UIs.",
-      "dev tools.",
-      "for the web."
+      "Full Stack Developer",
+      "Problem Solver",
+      "Open Source Contributor",
+      "Backend Architect",
+      "UI Craftsman"
     ],
     "bio": "Full-stack developer who turns messy problems into clean, fast products — from database schemas to design systems.",
     "bioHighlight": "Code Blooded",
@@ -31,14 +32,14 @@
       { "label": "GitHub",   "href": "https://github.com/rishavkr08" },
       { "label": "LinkedIn", "href": "https://linkedin.com/in/rishavkr08" },
       { "label": "X",        "href": "https://x.com/rishavkr08" },
-      { "label": "Email",    "href": "mailto:hello@rishavkumar.dev" }
+      { "label": "Email",    "href": "mailto:rishav74492644@gmail.com" }
     ],
     "card": {
       "filename": "rishav — developer.ts",
       "fields": [
         { "key": "role",        "value": "'Full Stack Developer'", "type": "string" },
         { "key": "location",    "value": "'India · Remote'",       "type": "string" },
-        { "key": "stack",       "value": "['TS', 'Go', 'React', 'Node']", "type": "array" },
+        { "key": "stack",       "value": "['Ruby on Rails', 'React.js', 'Next.js', 'JS/TS', 'Postgresql']", "type": "array" },
         { "key": "coffee",      "value": "Infinity",               "type": "keyword" },
         { "key": "codeBlooded", "value": "true",                   "type": "keyword" }
       ]
@@ -63,7 +64,7 @@
     "sectionLabel": "// 02 · stack",
     "heading": "Tools I reach for.",
     "categories": [
-      { "label": "~/ languages",  "items": ["TypeScript", "Go", "Python", "Rust", "SQL"] },
+      { "label": "~/ languages",  "items": ["TypeScript", "Ruby", "SQL"] },
       { "label": "~/ frontend",   "items": ["React", "Next.js", "Vue", "Tailwind", "Framer Motion"] },
       { "label": "~/ backend",    "items": ["Node.js", "Express", "FastAPI", "gRPC", "GraphQL"] },
       { "label": "~/ data",       "items": ["PostgreSQL", "MongoDB", "Redis", "Prisma"] },

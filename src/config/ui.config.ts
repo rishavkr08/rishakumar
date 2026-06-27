@@ -7,7 +7,7 @@ export const uiConfig = {
   // Accent colour applied as --accent CSS variable throughout the site.
   // Options: '#2ee6a6' (mint green) | '#38bdf8' (sky blue) |
   //          '#a78bfa' (violet)     | '#fb923c' (orange)
-  accent: '#2ee6a6',
+  accent: '#fb923c',
 
   // Background colour (dark canvas).
   // Options: '#07090c' (near-black) | '#0a0f1a' (deep navy) | '#0d0d0d' (pure dark)
@@ -29,13 +29,10 @@ export const uiConfig = {
   // Options: 'JetBrains Mono' | 'Fira Code' | 'Source Code Pro'
   fontMono: 'JetBrains Mono',
 
-  // Show floating particle dots in the background.
+  // Show floating particle constellation in the background.
+  // Particles draw lines to each other and to the mouse cursor.
   // Set false to disable for reduced-motion preference or simpler look.
   showParticles: true,
-
-  // Number of particles (only applies when showParticles = true).
-  // Range: 30 (minimal) → 120 (dense). Default 60 is balanced.
-  particleCount: 60,
 
   // Custom ring cursor that follows the mouse.
   // Set false to use the default OS cursor.
